@@ -15,7 +15,7 @@ if defined?(ActiveSupport::Inflector)
     inflect.uncountable 'bogus'
   end
 else
-  Inflector.inflections do |inflect|
-    inflect.uncountable 'bogus'
-  end
+Inflector.inflections do |inflect|
+  inflect.uncountable 'bogus'
+end
 end
